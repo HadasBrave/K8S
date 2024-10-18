@@ -1,12 +1,19 @@
 # The base image for our docker container
-FROM    alpine
+FROM mcr.microsoft.com/dotnet/sdk:6.0 AS build
+WORKDIR /app
 
-RUN     apk update &&     \
-        apk add curl jq
+COPY script.cs ./
+RUN dotnet new console -n MyApp
+RUN mv script.cs MyApp/Program.cs
 
-COPY    . .
-RUN     chmod +x ./script.cs
+WORKDIR /app/MyApp
+RUN dotnet build -c Release
 
-CMD     ["sh","-c","./script.cs"]
+FROM mcr.microsoft.com/dotnet/runtime:6.0
+WORKDIR /app
+
+COPY --from=build /app/MyApp/bin/Release/net6.0/ .
+
+ENTRYPOINT ["dotnet", "MyApp.dll"]
 
 
