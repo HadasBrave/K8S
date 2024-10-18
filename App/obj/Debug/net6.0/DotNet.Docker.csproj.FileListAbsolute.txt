@@ -1,0 +1,15 @@
+C:\K8S_Task-main\App\bin\Debug\net6.0\DotNet.Docker.exe
+C:\K8S_Task-main\App\bin\Debug\net6.0\DotNet.Docker.deps.json
+C:\K8S_Task-main\App\bin\Debug\net6.0\DotNet.Docker.runtimeconfig.json
+C:\K8S_Task-main\App\bin\Debug\net6.0\DotNet.Docker.dll
+C:\K8S_Task-main\App\bin\Debug\net6.0\DotNet.Docker.pdb
+C:\K8S_Task-main\App\obj\Debug\net6.0\DotNet.Docker.csproj.AssemblyReference.cache
+C:\K8S_Task-main\App\obj\Debug\net6.0\DotNet.Docker.GeneratedMSBuildEditorConfig.editorconfig
+C:\K8S_Task-main\App\obj\Debug\net6.0\DotNet.Docker.AssemblyInfoInputs.cache
+C:\K8S_Task-main\App\obj\Debug\net6.0\DotNet.Docker.AssemblyInfo.cs
+C:\K8S_Task-main\App\obj\Debug\net6.0\DotNet.Docker.csproj.CoreCompileInputs.cache
+C:\K8S_Task-main\App\obj\Debug\net6.0\DotNet.Docker.dll
+C:\K8S_Task-main\App\obj\Debug\net6.0\refint\DotNet.Docker.dll
+C:\K8S_Task-main\App\obj\Debug\net6.0\DotNet.Docker.pdb
+C:\K8S_Task-main\App\obj\Debug\net6.0\DotNet.Docker.genruntimeconfig.cache
+C:\K8S_Task-main\App\obj\Debug\net6.0\ref\DotNet.Docker.dll
