@@ -1,1 +1,10 @@
-Console.WriteLine("Hello Microsoft!");
+namespace ServiceB
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Hello, Microsoft!");
+        }
+    }
+}

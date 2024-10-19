@@ -1,0 +1,12 @@
+C:\K8S_Task-main\Docker\serviceB\obj\Debug\net6.0\serviceB.csproj.AssemblyReference.cache
+C:\K8S_Task-main\Docker\serviceB\obj\Debug\net6.0\serviceB.GeneratedMSBuildEditorConfig.editorconfig
+C:\K8S_Task-main\Docker\serviceB\obj\Debug\net6.0\serviceB.AssemblyInfoInputs.cache
+C:\K8S_Task-main\Docker\serviceB\obj\Debug\net6.0\serviceB.AssemblyInfo.cs
+C:\K8S_Task-main\Docker\serviceB\obj\Debug\net6.0\serviceB.csproj.CoreCompileInputs.cache
+C:\K8S_Task-main\Docker\serviceB\bin\Debug\net6.0\serviceB.deps.json
+C:\K8S_Task-main\Docker\serviceB\bin\Debug\net6.0\serviceB.dll
+C:\K8S_Task-main\Docker\serviceB\bin\Debug\net6.0\serviceB.pdb
+C:\K8S_Task-main\Docker\serviceB\obj\Debug\net6.0\serviceB.dll
+C:\K8S_Task-main\Docker\serviceB\obj\Debug\net6.0\refint\serviceB.dll
+C:\K8S_Task-main\Docker\serviceB\obj\Debug\net6.0\serviceB.pdb
+C:\K8S_Task-main\Docker\serviceB\obj\Debug\net6.0\ref\serviceB.dll

@@ -7,7 +7,7 @@ COPY serviceA/*.csproj ./
 RUN dotnet restore
 
 # Copy the remaining files and build the project
-COPY serviceA/. ./
+COPY . ./
 RUN dotnet publish -c Release -o /app/publish
 
 # Stage 2 - Runtime
