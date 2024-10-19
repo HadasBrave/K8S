@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: service-a
-          image: nirgeier/k8s_task_service_a
+          image: hadas2408/k8s-service-a
 ---
 apiVersion: apps/v1
 kind: Deployment
@@ -34,4 +34,4 @@ spec:
     spec:
       containers:
         - name: service-b
-          image: nirgeier/k8s_task_service_b
+          image: hadas2408/k8s-service-b

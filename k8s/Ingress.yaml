@@ -14,8 +14,12 @@ spec:
             backend:
               service:
                 name: service-a
+                port:
+                  number: 443
           - path: /serviceB
             pathType: Prefix
             backend:
               service:
                 name: service-b
+                port:
+                  number: 443

@@ -10,3 +10,8 @@ C:\K8S_Task-main\Docker\serviceA\obj\Debug\net6.0\serviceA.dll
 C:\K8S_Task-main\Docker\serviceA\obj\Debug\net6.0\refint\serviceA.dll
 C:\K8S_Task-main\Docker\serviceA\obj\Debug\net6.0\serviceA.pdb
 C:\K8S_Task-main\Docker\serviceA\obj\Debug\net6.0\ref\serviceA.dll
+C:\K8S_Task-main\Docker\ServiceA\bin\Debug\net6.0\serviceA.exe
+C:\K8S_Task-main\Docker\ServiceA\bin\Debug\net6.0\serviceA.runtimeconfig.json
+C:\K8S_Task-main\Docker\ServiceA\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\K8S_Task-main\Docker\ServiceA\obj\Debug\net6.0\serviceA.csproj.CopyComplete
+C:\K8S_Task-main\Docker\ServiceA\obj\Debug\net6.0\serviceA.genruntimeconfig.cache

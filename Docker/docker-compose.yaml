@@ -1,22 +1,8 @@
-version: '3.8'
-
+---
 services:
-  serviceA:
-    build: ./Docker/serviceA
-    container_name: serviceA
-    ports:
-      - "5000:80"
-    networks:
-      - k8s_network
-
-  serviceB:
-    build: ./Docker/serviceB
-    container_name: serviceB
-    ports:
-      - "5001:80"
-    networks:
-      - k8s_network
-
-networks:
-  k8s_network:
-    driver: bridge
+  service-a:
+    build: serviceA
+    image: hadas2408/k8s-service-a
+  service-b:
+    build: serviceB
+    image: hadas2408/k8s-service-b

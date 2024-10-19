@@ -18,15 +18,17 @@ minikube start
 
 ### Task 04 - Create services
 ```
-# Set up K8S cluster RBAC configuration
+# Cluster should have 2 services – A and B
+# Service-A: A Bitcoin price fetcher.
+# Service-B: A simple web service that prints "Hello Microsoft!".
 ```
 
-3.                  Cluster should have 2 services – A and B. 
+### Task 05 - Create Ingress controller
+```
+# Cluster should have Ingress controller, redirecting traffic by URL: xxx/service-A or xxx/service-B. 
+```
 
-4.                  Cluster should have Ingress controller, redirecting traffic by URL: xxx/service-A or xxx/service-B. 
-
-5.                  Service-A should not be able to “talk” with Service-B (policy disabled). Netw
-
-6.                  For Service A: write a script\application which retrieves the Bitcoin value in dollar from an API on the web (you should find one) every minute and prints it. 
-In addition, every 10 minutes it should print the average value of the last 10 minutes. 
-For Service B: Print "Hello!" or keep the default behavior of the service.
+### Task 06 - NetworkPolicy
+```
+# NetworkPolicy yaml file
+```
