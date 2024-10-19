@@ -3,7 +3,7 @@ FROM mcr.microsoft.com/dotnet/sdk:6.0 AS build
 WORKDIR /app
 
 # Copy .csproj and restore as distinct layers
-COPY serviceA/*.csproj ./
+COPY . ./
 RUN dotnet restore
 
 # Copy the remaining files and build the project
