@@ -1,17 +1,18 @@
-FROM mcr.microsoft.com/dotnet/sdk:6.0 AS build
+FROM mcr.microsoft.com/dotnet/sdk:6.0 AS build-env
 WORKDIR /app
 
-COPY script.cs ./
+# Copy .csproj and restore as distinct layers
+COPY serviceB/*.csproj ./
+RUN dotnet restore
 
-RUN dotnet new console -n MyAppB
-RUN mv script.cs MyAppB/Program.cs
+# Copy the remaining files and build the project
+COPY serviceB/. ./
+RUN dotnet publish -c Release -o /app/publish
 
-WORKDIR /app/MyAppB
-RUN dotnet build -c Release
-
+# Stage 2 - Runtime
 FROM mcr.microsoft.com/dotnet/runtime:6.0
 WORKDIR /app
+COPY --from=build /app/publish .
 
-COPY --from=build /app/MyAppB/bin/Release/net6.0/ .
-
-ENTRYPOINT ["dotnet", "MyAppB.dll"]
+# Command to run your service
+ENTRYPOINT ["dotnet", "serviceB.dll"]
