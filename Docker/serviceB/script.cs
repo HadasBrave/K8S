@@ -1,10 +1,16 @@
 namespace ServiceB
 {
+    using System;
+    using System.Threading.Tasks;
     class Program
     {
-        static void Main(string[] args)
+        static async Task Main(string[] args)
         {
-            Console.WriteLine("Hello, Microsoft!");
+            while(true)
+            {
+                await Task.Delay(TimeSpan.FromSeconds(10));
+                Console.WriteLine("Hello, Microsoft!");
+            }
         }
     }
 }
