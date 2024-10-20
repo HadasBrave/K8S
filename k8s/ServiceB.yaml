@@ -5,3 +5,7 @@ metadata:
 spec:
   selector:
     app: service-b
+  ports:
+    - protocol: TCP
+      port: 80
+      targetPort: 443
