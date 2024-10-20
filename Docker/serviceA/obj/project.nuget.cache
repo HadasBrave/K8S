@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "d+1o3mqOIDZUEpyRk8+84lWOkw4NZn4chDhWgW+vk9eQgVzyqJ7PYPJfd1QUQbp9RFRJp3C3kUlBDpk3781HFw==",
+  "dgSpecHash": "wcsdvpu8zkvAOi0E3ixI7CA8DXNLwD5LGxVONxKq9DBxeJ0BgzWbzjU8HMgfVE195usY8r9qD4Zu8JoHdyTPNQ==",
   "success": true,
-  "projectFilePath": "C:\\K8S_Task-main\\Docker\\ServiceA\\serviceA.csproj",
+  "projectFilePath": "C:\\K8S_Task-main\\Docker\\serviceA\\serviceA.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\הדס\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
   ],

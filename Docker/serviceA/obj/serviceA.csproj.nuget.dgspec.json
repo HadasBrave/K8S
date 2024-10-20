@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\K8S_Task-main\\Docker\\ServiceA\\serviceA.csproj": {}
+    "C:\\K8S_Task-main\\Docker\\serviceA\\serviceA.csproj": {}
   },
   "projects": {
-    "C:\\K8S_Task-main\\Docker\\ServiceA\\serviceA.csproj": {
+    "C:\\K8S_Task-main\\Docker\\serviceA\\serviceA.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\K8S_Task-main\\Docker\\ServiceA\\serviceA.csproj",
+        "projectUniqueName": "C:\\K8S_Task-main\\Docker\\serviceA\\serviceA.csproj",
         "projectName": "serviceA",
-        "projectPath": "C:\\K8S_Task-main\\Docker\\ServiceA\\serviceA.csproj",
+        "projectPath": "C:\\K8S_Task-main\\Docker\\serviceA\\serviceA.csproj",
         "packagesPath": "C:\\Users\\הדס\\.nuget\\packages\\",
-        "outputPath": "C:\\K8S_Task-main\\Docker\\ServiceA\\obj\\",
+        "outputPath": "C:\\K8S_Task-main\\Docker\\serviceA\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
